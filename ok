@@ -1,0 +1,12 @@
+<script src="https://aframe.io/releases/0.7.0/aframe.js"></script>
+         <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+<body style='margin : 0px; overflow: hidden;'>
+  <a-scene>
+  <a-assets>
+    <a-asset-item id="tree" src="https://raw.githubusercontent.com/pierkiroule/gltf/master/drone/scene.gltf"></a-asset-item>
+  </a-assets>
+
+
+    <a-entity gltf-model="#tree" position="0 0 -15" scale="0.04 0.04 0.04"animation-mixer></a-entity>
+</a-scene>
+</body>
